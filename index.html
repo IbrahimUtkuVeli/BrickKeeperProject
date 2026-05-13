@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Block Guard Game</title>
+    <style>
+        /* Sayfa gövdesini tüm ekranı kaplayacak şekilde ayarlayıp içeriği ortalıyoruz */
+        body {
+            margin: 0; /* Sayfa kenarlarındaki  boşlukları kaldırır  */
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; /* Sayfa yüksekliğini tarayıcı penceresine eşitler*/
+            background-color: #111; 
+            overflow: hidden; 
+        }
+
+        /* Canvas stil ayarları */
+        canvas {
+            border: 2px solid #0ff; 
+            /* Arka plana resim ekliyoruz */
+            background-image: url('Assets/bg.png'); 
+            background-size: cover; /* Resmi ekrana tam sığdırır */
+            background-position: center;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="breakout" width="500" height="750"></canvas>
+    <script src="game.js"></script>
+
+</body>
+</html>
