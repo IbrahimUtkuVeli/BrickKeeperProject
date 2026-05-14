@@ -25,6 +25,7 @@ Tamir: https://img.itch.zone/aW1nLzEyNzMzMjEwLnBuZw==/original/jSYsRH.png
 Mavi blok: Gemini ile oluşturuldu
 
 ### Oyun İçi Ekran Görüntüleri
+
 ![Oyun Ekranı 1](tamir.png)
 
 ![Oyun Ekranı 2](bomba.png)
