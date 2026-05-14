@@ -2,7 +2,40 @@
 
 Oyun Linki:https://ibrahimutkuveli.github.io/BrickKeeperProject
 
-Oyunun amacı:120 saniye içerisinde olabildiğince fazla bloğu korumak. Bu bloklara otomatik şekilde bir top çarpıyor ver kırıyor bu blokları tıklayarak 2 saniye koruyabiliyoruz ve çeşitli blok türleri var rastgele ortaya çıkıyorlar.
+Brick Keeper: Oyun Kuralları ve Oynanış Detayları
+
+Bu oyun, klasik Breakout türünün tersi olan bir oyundur. Amacınız tuğlaları kırmak değil, onları ekranda seken toptan korumaktır.
+
+Oynanış 
+
+Rollerin Değişimi: Klasik oyunların aksine, top tuğlalara her çarptığında onlara zarar verir. Sizin göreviniz, topun çarpacağı tuğlayı önceden sezip koruma altına almaktır.
+
+
+Kalkan Sistemi : Fare  ile bir tuğlanın üzerine tıkladığınızda o tuğla 2 saniye boyunca sarsılmaz bir kalkanla korunur. Kalkan aktifken top tuğlaya zarar veremez ve geri seker.
+
+
+Görsel Geri Bildirim: Bir tuğla koruma altına alındığında, kalan kalkan süresi bloğun hemen altında beyaz bir bar ile takip eder.
+
+Zorluklar ve Engeller
+
+Dinamik Fizik: Top, Canvas kenarlarına veya tuğlalara çarptıkça yön değiştirir. Oyun ilerledikçe topun hızı artabilir, bu da tepki sürenizi zorlaştırır.
+
+
+Bomba Blokları: Bazı tuğlaların üzerinde rastgele bombalar belirir. Bu bombalar patlamadan önce üzerlerine tıklayarak onları etkisiz hale getirmeniz gerekir; aksi takdirde tuğlayı anında yok ederler.
+
+
+Tamir Blokları: Nadiren ortaya çıkan yeşil tamir simgelerine tıklayarak, hasar görmüş tuğlaların canını yenileyebilirsiniz.
+
+Mavi Bloklar: Bu bloklara her çıkışında kombo şeklinde toplam 3 kez tıklayarak tüm blokları 10 saniye koruyabilirsiniz.
+
+ Hedef ve Puanlama
+
+Hayatta Kalma: Ekrandaki tuğla sayısı 0 olduğunda oyun kaybedilir.
+
+Zaman Kısıtı: 120 saniye boyunca mümkün olan en fazla bloğu hayatta tutmaya çalışmalısınız.
+
+Kontroller: Tüm oyun sadece Fare ile oynanır, bu da hızlı ve hassas bir oynanış gerektirir.
+
 
 Orijinal oyun linki:https://jimmy-t.itch.io/brick-keeper
 
