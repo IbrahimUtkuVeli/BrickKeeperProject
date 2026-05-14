@@ -26,4 +26,5 @@ Mavi blok: Gemini ile oluşturuldu
 
 ### Oyun İçi Ekran Görüntüleri
 ![Oyun Ekranı 1](tamir.png)
+
 ![Oyun Ekranı 2](bomba.png)
