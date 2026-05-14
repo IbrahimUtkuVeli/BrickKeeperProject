@@ -2,6 +2,8 @@
 
 Oyun Linki:https://ibrahimutkuveli.github.io/BrickKeeperProject
 
+Orijinal oyun linki:https://jimmy-t.itch.io/brick-keeper
+
 Brick Keeper: Oyun Kuralları ve Oynanış Detayları
 
 Bu oyun, klasik Breakout türünün tersi olan bir oyundur. Amacınız tuğlaları kırmak değil, onları ekranda seken toptan korumaktır.
@@ -36,8 +38,6 @@ Zaman Kısıtı: 120 saniye boyunca mümkün olan en fazla bloğu hayatta tutmay
 
 Kontroller: Tüm oyun sadece Fare ile oynanır, bu da hızlı ve hassas bir oynanış gerektirir.
 
-
-Orijinal oyun linki:https://jimmy-t.itch.io/brick-keeper
 
 ASSET Ve SESLER
 
