@@ -2,7 +2,7 @@
 **Kullanıcı Promptu:** oyun durumunu kontrol etmek için kalan blokları sayıp 0 sa kaybetme ekranı çıkmasını istiyorum bunu nasıl yaparım
 
 
-[cite_start]**Gemini Cevabı:** Harika bir noktaya değindin! Oyunun bir bitiş durumunun (GameOver) olması, projenin "oyun mekaniklerinin karmaşıklığı" ve "deneyim sunumu" açısından kritik bir kuraldır.
+**Gemini Cevabı:** Harika bir noktaya değindin! Oyunun bir bitiş durumunun (GameOver) olması, projenin "oyun mekaniklerinin karmaşıklığı" ve "deneyim sunumu" açısından kritik bir kuraldır.
 
 Tuğlaları saymak ve hepsi bittiğinde oyunu sonlandırmak için JavaScript tarafında mevcut olan update() fonksiyonuna veya ana oyun döngüsüne (Game Loop) bir kontrol mekanizması eklemelisin.
 
@@ -117,8 +117,10 @@ AI.md Notu: "Koruma altındaki blokların süresini görselleştirmek için beya
 
 Bu çizim mantığı mevcut brickArray yapına uyuyor mu, yoksa barın tuğlanın üzerinde mi yoksa altında mı durmasını tercih edersin?
 
+
 **Kullanıcı Promptu:** raketin topu her zaman x ekseninde takip etmesini istiyorum
-[cite_start]**Gemini Cevabı:** Raketin topu her zaman X ekseninde takip etmesi, oyunu oyuncu için biraz daha kolaylaştırırken, senin "Kontrol etme biçimleri" ve "Oyun mekaniklerinin karmaşıklığı" kriterlerine farklı bir teknik yaklaşım eklemeni sağlar. Bu mekaniği uygularken raketin topla aynı hizada olmasını sağlamak için raketin merkez noktasını, topun x koordinatına eşitlemelisin.
+
+**Gemini Cevabı:** Raketin topu her zaman X ekseninde takip etmesi, oyunu oyuncu için biraz daha kolaylaştırırken, senin "Kontrol etme biçimleri" ve "Oyun mekaniklerinin karmaşıklığı" kriterlerine farklı bir teknik yaklaşım eklemeni sağlar. Bu mekaniği uygularken raketin topla aynı hizada olmasını sağlamak için raketin merkez noktasını, topun x koordinatına eşitlemelisin.
 
 İşte bu otomatik takip mekanizmasını koda dökmen için gereken adımlar:
 
@@ -242,10 +244,11 @@ AI.md Beyanı: "Tuğla diziliminin matris (grid) yapısına dönüştürülmesi 
 
 Bu matris yapısı, daha sonra eklemek isteyebileceğin "rastgele bombalar" veya "farklı renkteki tuğlalar" gibi özellikler için de çok sağlam bir temel oluşturur. Matrisin boyutlarını ekranına göre ayarlamakta zorlanırsan genişlik hesaplamasını birlikte yapabiliriz.
 
+
 **Kullanıcı Promptu:** özel blok üretimlerini ve kontrollerini nasıl yapabilirim
 
 
-[cite_start]**Gemini Cevabı:** Özel blokların (örneğin koruma altına alınan, bomba içeren veya tamir kiti sunan tuğlaların) yönetimi için Nesne Yönelimli Programlama (OOP) prensiplerini kullanmak en sağlıklı yoldur. Matris yapındaki her bir tuğla nesnesine özel "tür" ve "durum" özellikleri atayarak bu kontrolleri sağlayabilirsin.
+**Gemini Cevabı:** Özel blokların (örneğin koruma altına alınan, bomba içeren veya tamir kiti sunan tuğlaların) yönetimi için Nesne Yönelimli Programlama (OOP) prensiplerini kullanmak en sağlıklı yoldur. Matris yapındaki her bir tuğla nesnesine özel "tür" ve "durum" özellikleri atayarak bu kontrolleri sağlayabilirsin.
 
 İşte özel blok üretimi ve kontrol mekanizması için izlemen gereken adımlar:
 
@@ -343,7 +346,7 @@ Bu yapıya ek olarak, bomba patladığında tuğlayı yok eden bir setTimeout me
 **Kullanıcı Promptu:** özel blokda yeni özel blok çıkması ve özel blokta tıklanınca bazen kalkan veriyor bunları nasıl düzeltebilirim
 
 
-[cite_start]**Gemini Cevabı:** Özel blokların (bomba veya tamir kiti) içerisinden tekrar başka bir özel blok çıkması veya koruma altına alınan bir bloğun üzerine tıklandığında kalkan süresinin hatalı işlemesi, mantıksal bir çakışmadan kaynaklanıyor. Bu durumu düzeltmek için tıklama ve üretim aşamalarına belirli "durum kontrolleri" (stat kontrolü) eklemelisin.
+**Gemini Cevabı:** Özel blokların (bomba veya tamir kiti) içerisinden tekrar başka bir özel blok çıkması veya koruma altına alınan bir bloğun üzerine tıklandığında kalkan süresinin hatalı işlemesi, mantıksal bir çakışmadan kaynaklanıyor. Bu durumu düzeltmek için tıklama ve üretim aşamalarına belirli "durum kontrolleri" (stat kontrolü) eklemelisin.
 
 İşte bu sorunları çözmek için uygulaman gereken mantık:
 
